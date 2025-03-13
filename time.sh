@@ -5,7 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=16G
-#SBATCH --output=result.txt
+#SBATCH --output=time_result.txt
 
 ./bfs_crawler "Tom Hanks" 2 | tail -n 1
 ./bfs_crawler "The Green Mile" 2 | tail -n 1
